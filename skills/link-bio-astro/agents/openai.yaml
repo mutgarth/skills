@@ -1,0 +1,4 @@
+interface:
+  display_name: "Link na Bio com Astro"
+  short_description: "Crie sua bio e publique com Astro, GitHub e Cloudflare"
+  default_prompt: "Use $link-bio-astro para criar meu link na bio e publicar no meu domínio com deploy automático após merge na main."
