@@ -48,7 +48,7 @@ As skills deste repositório são a versão publicada. Editar uma cópia instala
 
 ## Sobre
 
-Criado por [souomeneses](https://links.omeneses.com). Troque ideias e compartilhe o que construiu na [comunidade Vibe Mode](https://discord.gg/czSvnQGNH).
+Criado por [souomeneses](https://links.omeneses.com). Troque ideias e compartilhe o que construiu na [comunidade Vibe Mode](https://discord.gg/C6mRaE9y7Y).
 
 Organização e distribuição inspiradas no repositório [mattpocock/skills](https://github.com/mattpocock/skills). As instruções desta coleção são próprias; não é um fork da coleção dele.
 
