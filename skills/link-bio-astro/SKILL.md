@@ -7,6 +7,16 @@ description: Crie e publique uma página pessoal de link na bio com Astro estát
 
 Leve a pessoa da ideia à página publicada, adaptando a linguagem ao seu conhecimento técnico e idioma. Use Astro estático, GitHub e Cloudflare Workers Static Assets com Workers Builds. O resultado deve incluir uma página personalizada, conteúdo fácil de editar e publicação automática da branch `main`.
 
+## Conduzir quem está começando
+
+Primeiro descubra o agente/editor e o sistema operacional, se a pessoa consegue abrir uma pasta de projeto e se já tem contas. Inspecione ferramentas disponíveis antes de pedir que instale algo. Para preparar ambiente ou explicar terminal, leia [references/primeiros-passos.md](references/primeiros-passos.md).
+
+Assuma o trabalho técnico que suas ferramentas permitem: arquivos, configuração, comandos e diagnóstico. A pessoa escolhe conteúdo/visual, faz login e autoriza acessos. Se só houver chat, explique essa limitação e oriente o próximo passo executável; não alegue ter criado arquivos ou publicado nada.
+
+Conduza uma etapa por vez: diga **onde fazer, qual ação e qual resultado esperar**. Confira pelo terminal/browser quando tiver acesso; caso contrário peça o resultado ou mensagem de erro sem dados sensíveis. Não despeje o guia inteiro, não peça “configure o DNS” sem explicar e não avance por suposição. Termos como repositório (pasta do projeto no GitHub), build (gerar os arquivos do site), branch (versão separada) e merge (incorporar uma alteração) devem ser explicados na primeira utilização.
+
+O caminho principal é **prévia local → GitHub → Workers Builds → endereço público → domínio escolhido → primeira atualização por PR**. Não exige deploy manual nem login local do Wrangler. Se a pessoa não tem domínio, ofereça começar em workers.dev e conectar um depois. Mantenha na conversa o último passo confirmado e as URLs criadas para retomar sem repetir recursos.
+
 ## Descobrir sem transformar em formulário
 
 Aproveite o que a conversa já informou. Pergunte em pequenos grupos somente o que falta; continue trabalho independente enquanto espera.

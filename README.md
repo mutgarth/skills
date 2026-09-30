@@ -4,6 +4,8 @@ Skills que nascem dos projetos que construo com IA. Instruções práticas para 
 
 ## Instalar
 
+Você precisa de um agente de programação que aceite skills e de Node.js/npm para executar o instalador. Se estiver começando, instale o Node.js LTS compatível pelo [site oficial](https://nodejs.org/en/download), reabra o terminal e confira `node --version` e `npm --version`.
+
 Escolha as skills e o agente em que quer instalar:
 
 ```bash
@@ -26,10 +28,14 @@ npx skills@latest add mutgarth/skills --skill link-bio-astro
 
 A skill pergunta quais links merecem destaque, quais redes devem aparecer e se você tem fotos, logos ou referências visuais. Depois orienta a construção e publicação da página, com os links organizados em um JSON fácil de editar.
 
+A condução inclui preparar o ambiente, criar contas, conectar o repositório à Cloudflare, configurar o endereço e acompanhar a primeira atualização. O agente executa o que suas ferramentas permitem; você participa dos logins e das escolhas. Não é necessário já saber Git ou Cloudflare.
+
 Para usar no Codex após instalar:
 
 ```text
-Use $link-bio-astro para criar meu link na bio e publicar no meu domínio.
+Use $link-bio-astro para criar meu link na bio.
+Sou iniciante: me conduza uma etapa por vez até publicar e testar uma atualização.
+Ainda não tenho domínio; quero começar com o endereço gratuito.
 ```
 
 O domínio próprio é necessário para ter um endereço personalizado. Você também pode começar com o endereço `workers.dev` fornecido pela Cloudflare. A skill orienta a criação das contas; login, autorizações e compras ficam com você.
